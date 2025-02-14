@@ -11,7 +11,9 @@ const app = express()
 dotenv.config()
 
 // cors
-app.use(cors())
+app.use(cors({
+ origin: 'https://inventarymanagement-frontend.onrender.com',
+}))
 // To parse json data from body
 app.use(express.json())
 
