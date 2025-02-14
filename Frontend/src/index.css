@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "DM Sans", serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    text-decoration: underline;
+}
+
+.navbar-container {
+    background-color: #1F7E53;
+    padding: 15px;
+    color: white;
+    text-align: center;
+    width: 100%;
+    box-shadow: 2px 2px 3px 1px gray
+}
+
+
+
+.container {
+    width: 75%;
+    margin: 80px auto;
+}
+
+.createData-container {
+    position: absolute;
+    left: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    height: 100px;
+    padding: 10px;
+    background-color: #FAFAFA;
+    border-radius: 12px;
+}
+
+.form-container {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.submit-btn {
+    background-color: rgb(87, 87, 238);
+    color: white;
+    font-weight: 600;
+}
+
+/* Register style */
+.register-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    width: 350px;
+    background-color: white;
+    padding: 40px 30px 40px 30px;
+    box-shadow: -5px 2px 29px 0px rgba(223, 222, 222, 0.75) inset;
+    -webkit-box-shadow: -5px 2px 29px 0px rgba(236, 231, 231, 0.75) inset;
+    -moz-box-shadow: -5px 2px 29px 0px rgba(250, 250, 250, 0.75) inset;
+}
+
+.formR-container {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    justify-content: center;
+}
+
+.formR-container input {
+    padding: 10px;
+}
+
+.register-bottom {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    font-weight: 500;
+}
+
+.submit-btn2 {
+    background-color: #1F7E53;
+    color: white;
+    padding: 10px 0px 10px 0px;
+    outline: none;
+}
+
+#register-bg {
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Login style */
+.login-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    width: 350px;
+    background-color: white;
+    box-shadow: -5px 2px 29px 0px rgba(223, 222, 222, 0.75) inset;
+    -webkit-box-shadow: -5px 2px 29px 0px rgba(236, 231, 231, 0.75) inset;
+    -moz-box-shadow: -5px 2px 29px 0px rgba(250, 250, 250, 0.75) inset;
+    padding: 50px 30px 50px 30px;
+}
+
+.formL-container {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    justify-content: center;
+}
+
+.formL-container input {
+    padding: 10px;
+}
+
+.login-bottom {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    font-weight: 500;
+}
+
+.submit-btn2 {
+    background-color: #1F7E53;
+    color: white;
+    padding: 10px 0px 10px 0px;
+}
+
+#login-bg {
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formUpdate-container {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
